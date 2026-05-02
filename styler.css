@@ -1,0 +1,125 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+body {
+    line-height: 1.6;
+    color: #000;
+    background-color: #fff;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 135px;
+}
+
+.bakery-title {
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    color: #171B1B;
+    letter-spacing: 0px;
+
+}
+.button{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: 0.3s;
+
+}
+.button--primary{
+    background-color: #ff7500;
+    color: #fff;
+}
+.button--primary:hover{
+    opacity: 0.85;
+}
+.header {
+    background-color: #fff;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo-img {
+    height: 35px;
+}
+.header__list {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    padding-right: 400px;
+}
+.header__link {
+    font-family: "DM Sans";
+    font-weight: 700;
+    font-size: 16px;
+    color: #000;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+.header__link:hover {
+    color: #92908e;
+}
+.header__link--active::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #4a4a4999;
+}
+.header__button {
+    width: 138px;
+    height: 48px;
+    background-color:#000000;
+    color: #fff;
+    border: 1px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.header__button:hover {
+    opacity: 0.9;}
+
+
+    /* hero section boshlandi */
+
+    .content{
+        display: flex;
+    }
+   .hero{
+    background-color: #E7D4BE70;
+   }
+    .hero-text {
+        padding-top: 160px;
+    }
+    .hero-title{
+        width: 467px;
+        height: 240px;
+        font-family: "Ultra";
+        font-weight: 400;
+        font-size: 72px;
+    }
+    .hero-img{
+        width: 760px;
+        height: 810px;
+        margin-left: 118px;
+    }
+    .hero-text{
+        font-family: "DM Sans";
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 32px;
+    }
