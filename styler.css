@@ -4,14 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 a {
     text-decoration: none;
 }
+
 body {
     line-height: 1.6;
     color: #000;
     background-color: #fff;
 }
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -27,7 +30,8 @@ body {
     letter-spacing: 0px;
 
 }
-.button{
+
+.button {
     display: inline-block;
     padding: 12px 24px;
     border-radius: 4px;
@@ -37,30 +41,37 @@ body {
     transition: 0.3s;
 
 }
-.button--primary{
+
+.button--primary {
     background-color: #ff7500;
     color: #fff;
 }
-.button--primary:hover{
+
+.button--primary:hover {
     opacity: 0.85;
 }
+
 .header {
     background-color: #fff;
 }
+
 .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+
 .header__logo-img {
     height: 35px;
 }
+
 .header__list {
     display: flex;
     list-style: none;
     gap: 30px;
     padding-right: 400px;
 }
+
 .header__link {
     font-family: "DM Sans";
     font-weight: 700;
@@ -69,9 +80,11 @@ body {
     text-transform: uppercase;
     transition: color 0.3s ease;
 }
+
 .header__link:hover {
     color: #92908e;
 }
+
 .header__link--active::after {
     content: "";
     position: absolute;
@@ -81,45 +94,520 @@ body {
     height: 2px;
     background-color: #4a4a4999;
 }
+
 .header__button {
     width: 138px;
     height: 48px;
-    background-color:#000000;
+    background-color: #000000;
     color: #fff;
     border: 1px;
     border-radius: 2px;
     font-weight: bold;
 }
+
 .header__button:hover {
-    opacity: 0.9;}
+    opacity: 0.9;
+}
 
 
-    /* hero section boshlandi */
+/* hero section boshlandi */
 
-    .content{
-        display: flex;
-    }
-   .hero{
+.content {
+    display: flex;
+}
+
+.hero {
     background-color: #E7D4BE70;
-   }
-    .hero-text {
-        padding-top: 160px;
-    }
-    .hero-title{
-        width: 467px;
-        height: 240px;
-        font-family: "Ultra";
-        font-weight: 400;
-        font-size: 72px;
-    }
-    .hero-img{
-        width: 760px;
-        height: 810px;
-        margin-left: 118px;
-    }
-    .hero-text{
-        font-family: "DM Sans";
-        font-weight: 400;
-        font-size: 32px;
-        line-height: 32px;
-    }
+}
+
+.hero-text {
+    padding-top: 160px;
+}
+
+.hero-title {
+    width: 467px;
+    height: 240px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 72px;
+}
+
+.hero-img {
+    width: 760px;
+    height: 810px;
+    margin-left: 118px;
+}
+
+.hero-text {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+/* big section boshlash */
+
+.contnet {
+    display: flex;
+}
+
+.big-sec {
+    background-image: url(img/2\ section\ fon.png);
+}
+
+.big-sec {
+    padding-top: 160px;
+    border-radius: 10px;
+    padding-left: 54px;
+}
+
+.big-section {
+    padding-left: 130px;
+    padding-top: 151px;
+}
+
+.big-text {
+    padding-bottom: 16px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.big-title {
+    font-family: "Ultra";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.big-01 {
+    padding-top: 60px;
+}
+
+.big-text {
+    width: 370px;
+    padding-top: 12px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.big-ul {
+    list-style: none;
+}
+
+.big-link {
+    padding-bottom: 16px;
+}
+
+.up {
+    border-radius: 24px;
+    color: white;
+    width: 48px;
+    height: 48px;
+    background-color: #000;
+    margin-bottom: 8px;
+}
+
+.in {
+    border-radius: 24px;
+    color: white;
+    width: 48px;
+    height: 48px;
+    background-color: #000;
+}
+
+.big-subtext {
+    padding-left: 52px;
+}
+
+/* bakend section boshlandi */
+.wrapper-card {
+    display: flex;
+}
+
+.baked-title {
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.baked-card {
+    width: 400px;
+    height: 384px;
+}
+
+.baked-text {
+
+    color: #3333337F;
+    width: 306px;
+    height: 69px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.bakend-title-text {
+    padding-left: 40px;
+    padding-bottom: 70px;
+
+}
+
+.baked-text1 {
+    width: 370px;
+    padding-top: 12px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 150px;
+    padding-bottom: 18px;
+    padding-top: 185px;
+}
+
+.baked-text-bem {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    padding-left: 500px;
+    padding-bottom: 18px;
+    padding-top: 185px;
+}
+
+.baked-title-bem {
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    padding-left: 350px;
+}
+
+.baked-card-bm {
+    width: 400px;
+    height: 416px;
+    background-color: #F9BF77;
+}
+
+.bakend-img {
+    padding-top: 72px;
+    padding-left: 62px;
+}
+
+.baked-title {
+    padding-left: 62px;
+}
+
+.baked-text {
+    padding-left: 62px;
+}
+
+.baked-title {
+    padding-top: 59px;
+    padding-bottom: 18px;
+}
+
+/* kurasan section boshalndi */
+
+
+.kurasan {
+    padding-bottom: 100px;
+    margin-top: 176px;
+    padding-top: 100px;
+    background-color: #00000054;
+}
+
+.content {
+    display: flex;
+}
+
+.kurasan-img {
+    padding-left: 167px;
+}
+
+.kurasan-box {
+    padding-left: 286px;
+}
+
+.kurasan-text {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.kurasan-title {
+    font-family: "Ultra";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+
+}
+
+/* Products section boashlandi */
+
+.Products__card {
+    width: 770px;
+    background-image: url(img/Homemade\ \ Bread.png);
+    margin-top: 200px;
+    padding-bottom: 69px;
+    height: 400px;
+    top: 3440px;
+    left: 135px;
+    opacity: 1;
+}
+
+.title-Products {
+    padding-top: 108px;
+    width: 519px;
+    height: 128px;
+}
+
+.Products__card {
+    display: flex;
+    color: #fff;
+
+}
+
+.Products-text {
+    width: 650px;
+    height: 128px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+}
+
+.Products__photo {
+    padding-top: 165px;
+    padding-left: 48px;
+}
+
+.card-text {
+    padding-bottom: px;
+}
+
+.card-title {
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+}
+
+.card-text {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    color: #FFFFFF80;
+}
+
+.Products__card {
+    display: flex;
+}
+
+.Products__photo2 {
+    padding-left: 450px;
+    display: flex;
+    color: #000;
+}
+
+.card-title-bread {
+    padding-left: 32px;
+    font-family: Oswald;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.card-text2 {
+    padding-left: 32px;
+}
+
+.wrap-card {
+    display: flex;
+}
+
+.card-title {
+    padding-left: 32px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 40px;
+
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: right;
+
+
+}
+
+.wrap-card-slide {
+    display: flex;
+
+}
+
+.card-slide {
+    padding-top: 32px;
+    padding-right: 30px;
+}
+
+wrap-img {
+    width: 370;
+    height: 304;
+    opacity: 1;
+
+}
+
+.slide-title {
+    padding-top: 12px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.slide-title-3 {
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: right;
+}
+
+.slide-text {
+    padding-top: 25px;
+}
+
+.button {
+    padding-bottom: 200px;
+    padding-left: 500px;
+    padding-top: 64px;
+
+
+}
+
+.slide__button {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 20px 59px;
+    width: 170px;
+    height: 48px;
+    opacity: 1;
+    border: 4px solid #171B1B3D;
+    background-color: white;
+    color: #161313;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.slide__button:hover {
+    color: #92908e;
+}
+
+.card-wrapper {
+    display: flex;
+    color: white;
+}
+
+.recipes {
+    background-color: #011612;
+}
+
+.recipes-text-title {
+    color: white;
+    padding-top: 217px;
+}
+
+.recipes-text {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.recipes-title {
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 70px;
+
+}
+
+.recipes-card {
+    padding-left: 33px;
+    color: #000;
+    background-color: white;
+    width: 284px;
+    height: 384px;
+    opacity: 1;
+    top: 4880px;
+    left: 135px;
+
+
+}
+
+.recipres-title {
+    padding-bottom: 32px;
+    font-family: "Ultra";
+    font-weight: 700;
+    font-size: 40px;
+    padding-top: 96px;
+    line-height: 48px;
+    letter-spacing: 0px;
+
+}
+
+.recipres-text {
+    color: #3333337F;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+
+}
+
+.recipes-card1 {
+    background-color: #FBB65F;
+    color: #000;
+    padding-left: 33px;
+    color: #000;
+    width: 302px;
+    height: 384px;
+    opacity: 1;
+    top: 4864px;
+    left: 419px;
+
+}
+
+.recipres-text-raqam {
+    color: #3333337F;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
