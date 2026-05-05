@@ -1003,7 +1003,7 @@ wrap-img {
 }
 
 .content {
-    padding-bottom: 264px;
+    padding-bottom: 24px;
 }
 
 .btn--primary {
@@ -1076,7 +1076,6 @@ wrap-img {
 
 .footer__link-hov {
     padding-top: 8px;
-
     text-align: center;
     width: 48px;
     height: 48px;
