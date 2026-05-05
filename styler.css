@@ -526,7 +526,7 @@ wrap-img {
 }
 
 .recipes {
-    background-color: #011612;
+    background-color: #000d0b;
 }
 
 .recipes-text-title {
@@ -610,4 +610,502 @@ wrap-img {
     font-size: 16px;
     line-height: 32px;
     letter-spacing: 0px;
+}
+
+/* main section boshandi yani orta section */
+.main {
+    height: 1400px;
+    background-color: #000d0b;
+}
+
+.main-wrapper {
+    color: white;
+    width: 617px;
+    height: 128px;
+    padding-top: 185px;
+    padding-bottom: 70px;
+}
+
+.main-text {
+    color: white;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+}
+
+
+.main-wrapp {
+    padding-bottom: 20px;
+    padding-top: 185px;
+}
+
+.main-title {
+    width: 700px;
+    color: white;
+    padding-bottom: 5px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+
+}
+
+.main-woon-img {
+    margin-right: 20px;
+    color: #000;
+    background-color: white;
+    width: 570px;
+    height: 736px;
+    opacity: 1;
+    top: 5696px;
+    left: 135px;
+}
+
+.woon-text {
+    padding-left: 48px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+}
+
+.woon-title {
+    padding-left: 48px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    padding-bottom: 18px;
+}
+
+.woon-title-main {
+    padding-left: 46px;
+    color: white;
+    width: 300px;
+    color: #3333337F;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.main-wrapper {
+
+    display: flex;
+}
+
+
+.div {
+    margin-left: -320px;
+    display: flex;
+}
+
+
+.woon-img-min {
+    width: 270px;
+    height: 208px;
+    opacity: 1;
+    top: 5696px;
+    left: 735px;
+}
+
+.text_title {
+    width: 270px;
+    height: 352px;
+    opacity: 1;
+    top: 5696px;
+    left: 735px;
+
+}
+
+.main-woon-img-min3 {
+
+    margin-left: 20px;
+    padding-right: 20px;
+}
+
+.woon-text-min {
+    padding-bottom: 14px;
+    color: white;
+}
+
+.woon-title-main {
+    padding-bottom: 14px;
+    color: rgb(104, 101, 101);
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.team__btn {
+    padding: 11px 59px;
+    border: 1px solid white;
+    margin-left: -400px;
+}
+
+.team__btn:hover {
+    opacity: 0.3;
+}
+
+.woon-title-min {
+
+    padding-left: 48px;
+
+}
+
+.woon-text-min {
+    padding-left: 48px;
+
+}
+
+/* baholash section boshlandi */
+.baholash__text1 {
+    font-family: " qOswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding-bottom: 16px;
+    padding-top: 217px;
+}
+
+.baholash__title1 {
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    padding-bottom: 62px;
+}
+
+.baholash__title {
+    padding-bottom: 22px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.baholash__text {
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    width: 370px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.baholash__text3 {
+    padding-top: 22px;
+    padding-bottom: 16px;
+}
+
+.baholash__oshpaz {
+
+    padding-top: 192px;
+}
+
+.baholash__img {
+    width: 645px;
+    height: 624px;
+    top: 6896px;
+    left: 748px;
+    opacity: 1;
+
+}
+
+/* people section boshlandi */
+.people__div {
+    padding-top: 233px;
+    padding-left: 277px;
+    text-align: center;
+}
+
+.people__text {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.people__title {
+    width: 617px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+/* level section boshlandi */
+.level__card {
+    padding-left: 48px;
+    padding-top: 100px;
+    width: 384px;
+    height: 368px;
+    left: 135px;
+    opacity: 1;
+}
+
+.level {
+    display: flex;
+}
+
+.yulduzcha {
+    color: #F5A623;
+}
+
+.level__text {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 24px;
+    padding-top: 60px;
+    padding-bottom: 22px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.level__title {
+    color: #3333337F;
+    width: 306px;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+
+}
+
+.level__card1 {
+    margin-top: 52px;
+    background-color: #FBB65F;
+    padding-left: 48px;
+    padding-top: 55px;
+    width: 384px;
+    height: 368px;
+    left: 135px;
+    opacity: 1;
+}
+
+.yulduzcha1 {
+    color: #F5A623;
+    display: flex;
+}
+
+.yulduzcha2 {
+    display: flex;
+    color: #F5D3AB;
+}
+
+.level__img {
+    margin-left: 50px;
+    border-radius: 50px;
+    width: 102px;
+    height: 102px;
+    top: 8032px;
+    left: 371px;
+    ;
+    opacity: 1;
+    color: #F5D3AB;
+}
+
+/* end-main section boshlanldi */
+
+.end-img {
+    padding-top: 273px;
+}
+
+.end--tt {
+    padding-left: 130px;
+    padding-top: 273px;
+}
+
+.end-text {
+    padding-bottom: 18px;
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.end-title {
+    width: 287px;
+    font-family: "Ultra";
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+}
+
+.card-icon-user {
+    display: flex;
+    padding-top: 62px;
+}
+
+.icon {
+    padding-left: 60px;
+}
+
+.icon__flex {
+    display: flex;
+}
+
+.icon-text {
+    padding-bottom: 12px;
+}
+
+.icon-title {
+    font-family: "Oswald";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    padding-bottom: 22px;
+}
+
+.icon-text1 {
+    width: 155px;
+    color: #3333337F;
+    font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    padding-bottom: 70px;
+}
+
+.icon__user-img {
+    display: flex;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+    border-radius: 50%;
+}
+
+.content {
+    padding-bottom: 264px;
+}
+
+.btn--primary {
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    margin-left: 150px;
+    padding: 11px 48px;
+    border: 2px solid black;
+    width: 180px;
+    height: 48px;
+    top: 9184px;
+    left: 835px;
+    opacity: 1;
+}
+
+.btn--primary:hover {
+    color: #92908e;
+}
+
+.footer-wrapper {
+    display: flex;
+}
+
+.ul-link {
+    list-style: none
+}
+
+/* footer boshlandi */
+.site-footer {
+    height: 300px;
+    color: white;
+    background-color: #000d0b;
+}
+
+.footer-menu {
+    padding-left: 240px;
+}
+
+.header__logo3 {
+    padding-top: 57px;
+}
+
+.bakery-title1 {
+    color: white;
+    font-family: 'Ultra', serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+    letter-spacing: 0px;
+}
+
+.footer--link {
+
+
+    padding-bottom: 5px;
+}
+
+.footer__link {
+    color: white;
+        font-family: "DM Sans";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.footer__link:hover {
+    color: teal;
+}
+
+.footer__link-hov {
+    padding-top: 8px;
+
+    text-align: center;
+    width: 48px;
+    height: 48px;
+    opacity: 1;
+    border-radius: 5px;
+    color: white;
+    border-radius: 50px;
+    background-color: #F5AE5C;
+}
+
+.footer__link-hov:hover {
+    color: teal;
+
+}
+
+.footer-menu {
+    padding-top: 57px;
+}
+
+.footer_menu {
+    padding-bottom: 17px;
+}
+.footer-hr{
+    display: flex;
+}
+.footer-end-text{
+    padding-left: 543px;
+    padding-right: 90px;
+}
+.footer-end{
+    color: #FFFFFF80;
 }
